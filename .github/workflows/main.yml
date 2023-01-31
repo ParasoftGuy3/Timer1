@@ -35,7 +35,8 @@ jobs:
       run: cmake --build build
 
     # Runs code analysis with C/C++test.
-    - name: Run Parasoft C/C++test
+    - name: Run C/C++test
+    # name: Run Parasoft C/C++test
       # Use the 'run-cpptest-action' GitHub action.
       #uses: parasoft/run-cpptest-action@2.0.0
       #uses: parasoft/run-cpptest-action@2.301.1
