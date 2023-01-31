@@ -38,9 +38,9 @@ jobs:
     - name: Run C/C++test
     # name: Run Parasoft C/C++test
       # Use the 'run-cpptest-action' GitHub action.
-      uses: parasoft/run-cpptest-action@2.0.0
+      #uses: parasoft/run-cpptest-action@2.0.0
       #uses: parasoft/run-cpptest-action@2.301.1
-      #uses: parasoft/run-cpptest-action@1.0.1
+      uses: parasoft/run-cpptest-action@1.0.1
       # Optional parameters for 'run-cpptest-action'.
       with:
         # For CMake-based projects, use a compile_commands.json file as the input for analysis. 
