@@ -35,7 +35,7 @@ void uninit_timer()
 /*
  * Queries user for timer information
  */
- // another comment
+ // 
 struct timer_record* query_user()
 {
     int start_h, start_m, end_h, end_m;
